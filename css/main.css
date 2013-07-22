@@ -92,39 +92,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.photo, .links {
-    margin-bottom: 20px;
-}
-
-.title {
-    font-size: 130px;
-    height: 90px;
-    margin-top: 40px;
-}
-
-body {
-    font-family: justy_threeregular, Arial, sans-serif !important;
-    font-size: 40px !important;
-}
-
-.links a {
-    color: black !important;
-    font-size: 55px;
-    margin-right: 4%;
-}
-
-.links a.last {
-    margin-right: 0;
-}
-
-.links a.active {
-    box-shadow: 5px 5px 3px #888888;
-}
-
-.links a:hover {
-    box-shadow: 5px 5px 3px #888888;
-    text-decoration: none !important;
-}
 
 @font-face {
     font-family: 'justy_threeregular';
@@ -137,6 +104,39 @@ body {
     font-style: normal;
 }
 
+body {
+    font-family: justy_threeregular, Arial, sans-serif !important;
+    font-size: 40px !important;
+}
+
+.photo, .links {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 130px;
+    height: 90px;
+    margin-top: 40px;
+}
+
+.links a {
+    color: black;
+    font-size: 55px;
+    margin-right: 4%;
+}
+
+.links a.last {
+    margin-right: 0;
+}
+
+.links a.active {
+    color: #0088cc;
+}
+
+.links a:hover {
+    color: #0088cc;
+    text-decoration: none !important;
+}
 
 .tab {
     display: none;
@@ -146,16 +146,17 @@ body {
     display: block;
 }
 
-.content {
-    margin-top: 60px;
+.content, .footer {
+    margin-top: 50px;
 }
 
 .content p {
-    line-height: 30px;
+    line-height: 35px;
 }
 
-
-
+.right-column div {
+    margin-bottom: 30px;
+}
 
 /* ==========================================================================
    Helper classes

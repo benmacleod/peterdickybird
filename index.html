@@ -15,15 +15,37 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-combined.min.css">
 </head>
 <body>
 <!--[if lt IE 7]>
 <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 <![endif]-->
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script>
+!function(d,s,id){
+  var js,fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location)?'http':'https';
+  if(!d.getElementById(id)) {
+    js = d.createElement(s);
+    js.id = id;
+    js.src = p + '://platform.twitter.com/widgets.js';
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+}(document, 'script', 'twitter-wjs');
+</script>
 
 <div class="container">
-  <div class="row">
+  <div class="row wrapper">
     <div class="span2">&nbsp;</div>
     <div class="span8">
       <div class='row title'>
@@ -59,8 +81,9 @@
           <p>Tote bag food truck nihil vinyl, Cosby sweater church-key whatever anim hashtag Williamsburg. Food truck 8-bit nostrud, yr deserunt hoodie officia consectetur butcher YOLO shabby chic before they sold out. Locavore freegan sint roof party deserunt, velit +1 cornhole aliquip trust fund helvetica excepteur. Before they sold out blog dolor bespoke sartorial letterpress. Shoreditch velit church-key mlkshk. Tattooed in elit Banksy. Hella flexitarian Tonx trust fund, consectetur skateboard elit pop-up.</p>
         </div>
         <div id='music' class='tab'>
-          <p>Tumblr exercitation in, aliqua cardigan biodiesel salvia narwhal do +1 mustache. Leggings artisan helvetica aesthetic, whatever sed Williamsburg aliqua brunch +1 fixie Brooklyn. Exercitation kogi art party, delectus aute quinoa placeat ennui Portland shoreditch literally shabby chic kitsch anim banh mi. Fingerstache sartorial pitchfork, single-origin coffee ethnic Austin scenester fugiat fap artisan VHS yr typewriter ea cardigan. Austin before they sold out hella, esse polaroid next level ethnic magna pug thundercats est fap craft beer Brooklyn intelligentsia. Keffiyeh shabby chic labore aute cillum forage. Dolor Cosby sweater gluten-free non food truck, sriracha wolf brunch mumblecore Pinterest commodo consectetur Portland.</p>
-        </div>
+          <p>Our first EP is free to download on <a href='https://soundcloud.com/flyawaypeter'>SoundCloud</a></p>
+          <p>Go give them the 'bird at <a href='http://www.triplejunearthed.com/Artists/View.aspx?artistid=49470'>Triple J Unearthed</a></p>
+         </div>
         <div id='gigs' class='tab'>
           <p>Fap single-origin coffee fixie, tousled delectus blue bottle synth cred banjo duis bitters four loko meh Schlitz. Leggings wayfarers cliche, VHS keffiyeh gastropub minim nisi ethical. In 3 wolf moon ennui, intelligentsia pariatur single-origin coffee tumblr exercitation biodiesel. 3 wolf moon bitters four loko vegan letterpress sunt. Organic anim craft beer readymade Tonx cupidatat, locavore american apparel messenger bag pickled plaid excepteur tempor actually viral. +1 swag raw denim proident intelligentsia exercitation. Craft beer proident seitan leggings mlkshk.</p>
         </div>
@@ -68,24 +91,35 @@
           <p>Ethnic gluten-free laborum Tonx Pinterest. Duis eu single-origin coffee, yr 90's sartorial four loko keytar Austin exercitation kogi. Artisan velit sustainable, banjo kogi typewriter before they sold out quinoa direct trade beard consectetur sint proident. Quis minim gastropub, twee occaecat ennui tote bag Etsy gentrify keffiyeh Carles qui disrupt dolore swag. Tumblr lo-fi Williamsburg, eiusmod irure assumenda hella. Laboris lo-fi fap do, skateboard organic deep v consequat pariatur freegan typewriter. Qui post-ironic sapiente nesciunt, nulla fanny pack retro fugiat assumenda reprehenderit mumblecore.</p>
         </div>
         <div id='contact' class='tab'>
-          <p>Delectus Tonx consequat, Etsy Vice dolor forage. Ethical fashion axe locavore irony street art sed, exercitation nesciunt keffiyeh readymade odio. Excepteur salvia tumblr ad scenester, quinoa voluptate. Ut master cleanse elit, locavore wolf meggings authentic pickled proident hella. Pork belly nostrud Wes Anderson labore. Schlitz do thundercats kitsch deserunt, delectus roof party selfies sunt enim Vice meh. Schlitz skateboard squid fap, PBR fugiat keytar labore before they sold out tote bag.</p>
+          <p>E4mail: <a href='mailto:peterdickybird@gmail.com'>peterdickybird@gmail.com</a></p>
+          <p>Facebook: <a href='https://www.facebook.com/peterdickybird'>https://www.facebook.com/peterdickybird</a></p>
+          <p>Twitter: <a href='https://twitter.com/PeterDickybird'>@PeterDickybird</a></p>
         </div>
         <div id='pics' class='tab'>
           <p>Blue bottle YOLO banh mi aliquip, umami mlkshk Banksy occupy Carles Brooklyn ethnic literally fingerstache ethical mustache. Fap magna do, try-hard tumblr biodiesel trust fund tattooed sapiente jean shorts laboris. Aesthetic assumenda YOLO, tofu meggings craft beer Terry Richardson nihil cillum accusamus esse Wes Anderson nulla. Typewriter iPhone High Life, yr sriracha biodiesel odio Pinterest velit Carles minim. Lomo bespoke aesthetic, pork belly kogi hella deep v locavore non Vice trust fund. Food truck pitchfork direct trade fingerstache. Trust fund tofu flexitarian cillum, ethical sustainable labore farm-to-table laboris voluptate art party meggings cardigan anim cornhole.</p>
         </div>
       </div>
     </div>
-    <div class="span2">
-      <img src='img/Pete.png' alt />
+    <div class="span2 right-column">
+      <div>
+        <img src='img/Pete.png' alt />
+      </div>
+      <div class="fb-like" data-href="https://www.facebook.com/peterdickybird" data-send="false" data-width="225" data-show-faces="true"></div>
+      <div>
+        <a href="https://twitter.com/PeterDickybird" class="twitter-follow-button" data-show-count="false" data-lang="en-gb" data-size="large" data-dnt="true">Follow @PeterDickybird</a>
+      </div>
+      <div>
+        <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F8132667&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
+      </div>
     </div>
   </div>
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
-<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
