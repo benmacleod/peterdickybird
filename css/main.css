@@ -106,23 +106,24 @@ textarea {
 
 body {
     font-family: justy_threeregular, Arial, sans-serif !important;
-    font-size: 40px !important;
+    font-size: 30px !important;
 }
 
 .photo, .links {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .title {
-    font-size: 130px;
-    height: 90px;
+    font-size: 110px;
+    text-align: center;
+    height: 70px;
     margin-top: 40px;
 }
 
 .links a {
     color: black;
-    font-size: 55px;
-    margin-right: 4%;
+    font-size: 50px;
+    margin-right: 6.6%;
 }
 
 .links a.last {
@@ -147,7 +148,7 @@ body {
 }
 
 .content, .footer {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .content p {
@@ -157,6 +158,13 @@ body {
 .right-column div {
     margin-bottom: 30px;
 }
+
+@media (max-width: 767px) {
+    .links a {
+        margin-right: 1em;
+    }
+}
+
 
 /* ==========================================================================
    Helper classes
