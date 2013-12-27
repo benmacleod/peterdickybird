@@ -8,5 +8,8 @@
         $('.tab#' + $(this).attr('id').replace('_link', '')).addClass('active');
       }
     });
+    $('a#go_links').on('click', function() {
+      $('#links_link').click();
+    });
   });
 }(jQuery));
